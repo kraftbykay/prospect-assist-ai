@@ -65,7 +65,7 @@ export default function AddProspectModal({
           </div>
 
           <p className="mt-3 pl-8 text-[16px] text-[#004237]">
-            Enter prospect's full name.
+            Enter prospect&apos;s full name.
           </p>
 
         </div>
@@ -110,7 +110,7 @@ export default function AddProspectModal({
           </div>
 
           <p className="mt-3 pl-8 text-[16px] text-[#004237]">
-            Enter prospect's mobile number.
+            Enter prospect&apos;s mobile number.
           </p>
 
         </div>
@@ -159,7 +159,7 @@ export default function AddProspectModal({
           </div>
 
           <p className="mt-3 pl-8 text-[16px] text-[#004237]">
-            Enter prospect's required interest.
+            Enter prospect&apos;s required interest.
           </p>
 
         </div>
@@ -208,7 +208,7 @@ export default function AddProspectModal({
           </div>
 
           <p className="mt-3 pl-8 text-[16px] text-[#004237]">
-            Enter prospect's source.
+            Enter prospect&apos;s source.
           </p>
 
         </div>

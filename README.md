@@ -2,175 +2,194 @@
 
 # ProspectAssist AI
 
-### AI-Powered Relationship Manager Assistant for Intelligent Banking Onboarding
+### AI-Powered Relationship Manager Copilot for Intelligent Banking Onboarding
 
-Built for the **IDBI Innovate Hackathon 2026**
+Built for **IDBI Innovate Hackathon 2026**
 
----
-
-AI-assisted prospect onboarding, document verification, customer profiling and personalized banking recommendations in one seamless workflow.
+AI-assisted customer onboarding, document verification, customer profiling, product recommendations and prospect creation in one seamless workflow.
 
 </div>
 
 ---
 
-## Overview
+# Overview
 
-ProspectAssist AI is an AI-powered banking assistant designed to help Relationship Managers onboard customers faster while improving accuracy and decision making.
+ProspectAssist AI is an AI-powered banking assistant designed to help Relationship Managers onboard customers faster while improving decision-making, operational efficiency and customer experience.
 
-Instead of manually reviewing customer documents, calculating eligibility and identifying suitable financial products, Relationship Managers receive AI-driven assistance throughout the complete onboarding journey.
+Instead of manually reviewing customer information across multiple systems, Relationship Managers receive AI-guided assistance throughout the complete onboarding journey—from customer interaction to prospect creation.
 
-The system analyzes customer information, verifies documents, evaluates financial eligibility and recommends personalized banking products before generating a ready-to-process application.
+The application combines conversational AI, customer profiling, eligibility assessment and intelligent product recommendations into a single enterprise workflow.
 
 ---
 
-## Problem Statement
+# Problem Statement
 
-Traditional customer onboarding involves:
+Traditional customer onboarding is often fragmented across multiple systems and requires significant manual effort.
 
-- Manual document verification
-- Multiple internal systems
-- Time-consuming eligibility checks
+Common challenges include:
+
+- Manual customer onboarding
+- Time-consuming document verification
+- Repetitive eligibility assessment
 - Inconsistent product recommendations
-- Higher operational effort
+- Higher operational workload
+- Longer customer onboarding time
 
-Relationship Managers spend significant time performing repetitive verification instead of focusing on customer relationships.
+These repetitive tasks reduce Relationship Managers' productivity and impact customer experience.
 
 ---
 
-## Solution
+# Solution
 
-ProspectAssist AI streamlines the entire onboarding process using AI.
+ProspectAssist AI streamlines the complete onboarding journey using AI-powered assistance.
 
-The platform assists Relationship Managers through every stage:
+The platform helps Relationship Managers:
 
-- Customer onboarding
-- AI conversation assistance
-- Document verification
-- Customer profile generation
-- Financial analysis
-- Product recommendations
-- Prospect creation
+- Capture customer information through an AI Copilot
+- Verify customer documents
+- Generate an intelligent customer profile
+- Assess eligibility and financial risk
+- Recommend the most suitable banking products
+- Create a qualified prospect ready for further processing
 
-This reduces onboarding effort while improving consistency and customer experience.
+The result is a faster, more consistent and intelligent onboarding experience.
 
 ---
 
 # Product Workflow
 
-```
-
+```text
 Dashboard
-↓
-
+      ↓
 AI Copilot
-
-↓
-
+      ↓
 Customer Profile & AI Analysis
-
-↓
-
+      ↓
 AI Product Recommendations
-
-↓
-
+      ↓
 AI Prospect Creation
-
-↓
-
+      ↓
 Dashboard
-
 ```
+
+---
+
+# Screenshots
+
+## Login
+
+![Login](docs/login.png)
+
+---
+
+## Dashboard
+
+![Dashboard](docs/dashboard.png)
+
+---
+
+## AI Copilot
+
+![AI Copilot](docs/ai-copilot.png)
+
+---
+
+## Customer Profile & AI Analysis
+
+![Customer Profile](docs/customer-profile.png)
+
+---
+
+## AI Product Recommendations
+
+![AI Recommendation](docs/ai-recommendation.png)
+
+---
+
+## AI Prospect Creation
+
+![AI Prospect Creation](docs/prospect-created.png)
 
 ---
 
 # Features
 
-### Dashboard
+## Dashboard
 
 - AI Daily Brief
-- Active Pipeline Overview
+- Active Prospect Pipeline
+- Relationship Manager Workspace
 - Customer Insights
-- Prospect Management
-- Performance Metrics
+- Performance Overview
 
-### AI Copilot
+## AI Copilot
 
-- Guided onboarding conversation
-- AI-generated customer questions
-- Dynamic response flow
-- Smart customer information capture
+- AI-guided customer onboarding
+- Intelligent conversation flow
+- Customer information collection
+- Dynamic assistance
 
-### Customer Profile & AI Analysis
+## Customer Profile & AI Analysis
 
-- Personal information
-- Financial profile
-- Verified documents
-- AI risk assessment
-- Eligibility analysis
-- Missing information detection
+- Customer profile generation
+- Financial overview
+- AI eligibility analysis
+- Risk assessment
+- Verified customer information
 
-### AI Product Recommendations
+## AI Product Recommendations
 
-- AI-powered product suggestions
-- Home Loan recommendation
-- Savings Account recommendation
-- Credit Card recommendation
-- Recommendation confidence
-- Customer suitability explanation
+- Personalized banking recommendations
+- AI confidence scoring
+- Product suitability explanation
+- Multiple product suggestions
 
-### AI Prospect Creation
+## AI Prospect Creation
 
 - Prospect summary
-- Verified customer profile
 - AI-generated onboarding record
-- One-click onboarding completion
+- Customer verification status
+- CRM-ready prospect creation
 
 ---
 
 # Technology Stack
 
 | Category | Technology |
-|----------|------------|
+|-----------|------------|
 | Framework | Next.js 16 |
 | Language | TypeScript |
 | Styling | Tailwind CSS |
-| UI Icons | Lucide React |
-| Routing | Next.js App Router |
+| UI Components | React |
+| Icons | Lucide React |
+| Routing | App Router |
 | Package Manager | npm |
 
 ---
 
 # Folder Structure
 
-```
-
+```text
 app/
+├── dashboard/
+├── ai-copilot/
+├── document-verification/
+├── ai-recommendation/
+├── ai-prospect-creation/
+
 components/
-├── dashboard
-├── ai-copilot
-├── document-verification
-├── ai-recommendation
-├── ai-prospect-creation
-├── login
-├── ui
+├── dashboard/
+├── ai-copilot/
+├── document-verification/
+├── ai-recommendation/
+├── ai-prospect-creation/
+├── login/
+├── layout/
+└── ui/
 
 public/
-
+docs/
 ```
-
----
-
-# Screens
-
-| Screen | Description |
-|----------|-------------|
-| Dashboard | Relationship Manager overview |
-| AI Copilot | Guided customer onboarding |
-| Customer Profile | AI-generated customer analysis |
-| AI Recommendation | Personalized banking products |
-| Prospect Creation | Final onboarding summary |
 
 ---
 
@@ -179,7 +198,13 @@ public/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/prospect-assist-ai.git
+git clone https://github.com/your-username/prospect-assist-ai.git
+```
+
+Navigate into the project
+
+```bash
+cd prospect-assist-ai
 ```
 
 Install dependencies
@@ -188,13 +213,13 @@ Install dependencies
 npm install
 ```
 
-Run locally
+Run the development server
 
 ```bash
 npm run dev
 ```
 
-Production build
+Build for production
 
 ```bash
 npm run build
@@ -204,33 +229,56 @@ npm run build
 
 # Design Principles
 
-- Human-centered onboarding
-- AI-assisted decision support
+- Human-centered banking experience
+- AI-first workflow
+- Enterprise-grade UI
 - Minimal cognitive load
-- Enterprise banking UI
-- Scalable component architecture
+- Modular component architecture
 - Consistent design system
+- Scalable user experience
 
 ---
 
-# Future Enhancements
+# Demo Journey
 
-- OCR document extraction
-- Aadhaar & PAN validation APIs
+1. Login to the RM Dashboard
+2. Start onboarding using AI Copilot
+3. Review AI-generated customer profile
+4. Analyze customer eligibility
+5. Receive AI-powered product recommendations
+6. Generate the banking prospect
+7. Complete onboarding
+
+---
+
+# Future Scope
+
+- OCR-based document extraction
+- Aadhaar & PAN verification APIs
 - Credit bureau integration
-- AI eligibility scoring
+- AI-powered fraud detection
 - Voice-assisted onboarding
-- Loan simulation
+- Loan eligibility simulation
 - CRM integration
 - Banking core system integration
+- Real-time analytics dashboard
 
 ---
 
-# Project Status
+# Built With
 
-Prototype completed for **IDBI Innovate Hackathon 2026**
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- App Router
 
-Current version demonstrates the complete AI-assisted onboarding journey from customer interaction to prospect creation.
+---
+
+# Acknowledgements
+
+This project was designed and developed as part of the **IDBI Innovate Hackathon 2026**, focusing on AI-assisted banking experiences and intelligent customer onboarding.
 
 ---
 
@@ -240,16 +288,12 @@ Current version demonstrates the complete AI-assisted onboarding journey from cu
 
 Experience Designer
 
-Portfolio
+🌐 Portfolio: https://kraftbykay.framer.website
 
-https://kraftbykay.framer.website
-
-LinkedIn
-
-https://linkedin.com/in/kraftbykay
+💼 LinkedIn: https://linkedin.com/in/kraftbykay
 
 ---
 
-## License
+# License
 
-This project is created for educational and hackathon purposes.
+This project is licensed under the MIT License.

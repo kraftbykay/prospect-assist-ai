@@ -44,7 +44,7 @@ export default function RecommendationHero() {
             </h1>
 
             <p className="mt-2 text-[17px] text-[#6B7A76]">
-              Recommended based on the customer's verified profile,
+              Recommended based on the customer&apos;s verified profile,
               repayment capacity and financial behaviour.
             </p>
 

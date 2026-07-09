@@ -21,7 +21,7 @@ export default function AlternativeProducts() {
 
           <p className="mt-2 text-[16px] text-[#6B7A76]">
             AI identified additional banking products that complement the
-            customer's financial profile.
+            customer&apos;s financial profile.
           </p>
 
         </div>
