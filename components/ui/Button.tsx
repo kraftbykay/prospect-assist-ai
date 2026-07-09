@@ -7,6 +7,7 @@ type ButtonProps = {
   variant?: "primary" | "secondary";
   fullWidth?: boolean;
   showArrow?: boolean;
+  onClick?: () => void;
 };
 
 export default function Button({
@@ -15,6 +16,7 @@ export default function Button({
   variant = "primary",
   fullWidth = true,
   showArrow = true,
+  onClick,
 }: ButtonProps) {
   const baseClasses = `
     flex items-center justify-center gap-3
@@ -46,6 +48,7 @@ export default function Button({
 
   return (
     <button
+      onClick={onClick}
       type={type}
       className={`
         ${baseClasses}
